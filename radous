@@ -1,0 +1,5 @@
+로그정보 디렉토리 
+/usr/local/var/log/radius
+find ./ -name "*.log.*"  | xargs grep "dcshin"
+cat radius.log.* | grep yeonho
+gzip -dc radius.log.* |grep jinsukim
